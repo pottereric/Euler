@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Utils;
+﻿using Utils;
 
 namespace Solutions.Problem9
 {
@@ -21,7 +16,7 @@ namespace Solutions.Problem9
                 {
                     for (c = 0; c < sum; c++)
                     {
-                        if(a + b + c == sum && PythagoreanTriplet.Validate(a, b, c))
+                        if (a + b + c == sum && PythagoreanTriplet.Validate(a, b, c))
                         {
                             return a * b * c;
                         }

@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Problem9\BruteForce_UnitTest.cs" />
+    <Compile Include="Problem9\TripletCheckerActor_UnitTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
